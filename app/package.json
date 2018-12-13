@@ -1,0 +1,12 @@
+{
+  "name": "AuditApp",
+  "version": "0.1.0",
+  "description": "AuditApp application built with Electron",
+  "author": {
+    "name": "Willy Nzesseu",
+    "email": ""
+  },
+  "license": "MIT",
+  "main": "javascripts/main/index.js",
+  "dependencies": {}
+}

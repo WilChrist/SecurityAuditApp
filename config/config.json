@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "12345",
+    "database": "audit_app_daatabase_dev",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "username": "root",
+    "password": "12345",
+    "database": "audit_app_daatabase_test",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "root",
+    "password": "&BigSecret$",
+    "database": "audit_app_daatabase_production",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  }
+}

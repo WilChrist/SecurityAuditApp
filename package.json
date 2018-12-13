@@ -1,0 +1,32 @@
+{
+  "name": "AuditApp",
+  "version": "0.1.0",
+  "description": "Desktop application build with Electron",
+  "repository": "",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "bozon": "bozon start"
+  },
+  "devDependencies": {
+    "bozon": "0.8.11",
+    "electron": "3.0.9",
+    "electron-builder": "20.36.2",
+    "electron-rebuild": "^1.8.2",
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0",
+    "spectron": "^5.0.0",
+    "webpack-stream": "^4.0.3"
+  },
+  "build": {
+    "appId": "com.electron.auditapp",
+    "win": {},
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+  "dependencies": {
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.4"
+  }
+}
