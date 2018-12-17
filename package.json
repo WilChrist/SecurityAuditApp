@@ -5,7 +5,8 @@
   "repository": "",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
-    "bozon": "bozon start"
+    "bozon": "bozon start",
+    "test": "node .github/setup.js"
   },
   "devDependencies": {
     "bozon": "0.8.11",
