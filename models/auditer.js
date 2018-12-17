@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {});
     Auditer.associate = function (models) {
         // associations can be defined here
-        Auditer.hasMany(models.Audit)
+        Auditer.hasMany(models.Audit);
     };
     return Auditer;
 };

@@ -14,6 +14,9 @@ module.exports = {
             recommendation: {
                 type: Sequelize.STRING
             },
+            comment: {
+                type: Sequelize.TEXT('long')
+            },
             failureNumber: {
                 type: Sequelize.INTEGER
             },

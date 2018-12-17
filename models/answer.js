@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         id: DataTypes.UUID,
         score: DataTypes.INTEGER,
         recommendation: DataTypes.STRING,
+        comment: DataTypes.TEXT('long'),
         failureNumber: DataTypes.INTEGER
     }, {});
     Answer.associate = function (models) {
