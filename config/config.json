@@ -4,7 +4,8 @@
     "password": "12345",
     "database": "audit_app_daatabase_dev",
     "host": "127.0.0.1",
-    "dialect": "sqlite"
+    "dialect": "sqlite",
+    "storage": "./tmp/audit_app_daatabase_dev.sqlite"
   },
   "test": {
     "username": "root",
